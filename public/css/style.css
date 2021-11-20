@@ -1,4 +1,16 @@
 /* Global */
+*{
+    font-family: "Roboto", "sans-serif";
+}
+
+/* Banner */
+
+.banner-image{
+    text-align: center;
+}
+.banner-image img{
+    width: fit-content;
+}
 
 /* Main Page */
 .bio-content{
@@ -14,3 +26,12 @@
 /* Skill Three */
 
 /* Skill Four */
+
+/* Contact */
+
+.contact-image{
+    text-align: center;
+}
+.contact-image img{
+    width: 50%;
+}
