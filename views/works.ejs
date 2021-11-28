@@ -1,0 +1,77 @@
+<%- include("partials/header.ejs") %>
+<!-- Navbar -->
+<%- include("partials/navbar.ejs") %>
+
+<section class="container-fluid work-section">
+  <div class="container-lg">
+    <div class="works-banner text-center">
+      <div class="works-title">
+        <h1 class="h3">Samples of my work</h1>
+      </div>
+      <div class="works-content">
+        <p class="fs-5">
+          I have worked a various different projects ranging from financial
+          projects, to cyber security, and even web development. Here is a look
+          at some a few projects I have worked on. You can find more on my
+          github page linked in the footer.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Display Section -->
+<section class="container-fluid display-section">
+  <div class="container-lg dataScience-works pt-5 pb-5">
+    <div class="dataScience-title pb-5 mb-5">
+      <h1 class="h3">Data Science</h1>
+      <p class="fs-5">
+        Displayed are a pair of graphs from a couple of projects I have worked
+        on to demonstrate some areas of my expertise. Combined with my
+        statistical background, I have experience using python data science
+        libraries to pair with. For deeper look into these projects and more,
+        Click on the labels, which will redirect you to my GitHub.
+      </p>
+    </div>
+    <div class="dataScience-content d-flex">
+      <div class="dataScience-img col-md-6">
+        <label for="PPlot fs-2"
+          ><a href="" target="_blank">
+            Pairplot used to help a company decide where to reinvest their
+            revenue in their company.
+          </a></label
+        >
+        <img
+          src="../photos/linearRegressionPPlot.png"
+          alt="PairPlot.png"
+          value="PPlot"
+        />
+      </div>
+      <div class="dataScience-img col-md-6">
+        <label for="pred"
+          ><a href="" target="_blank">
+            Heatmap using Keras to show house prices for Seattle water-front
+            properties.
+          </a></label
+        >
+        <img
+          src="../photos/HousingPredictionsViaKeras.png"
+          alt="housingPredictions.png"
+          value="pred"
+        />
+      </div>
+    </div>
+  </div>
+  <div class="webDev-works"></div>
+  <div class="cyberSec-works"></div>
+</section>
+
+<section class="container-fluid webDev-works">
+  <div class="container-lg">
+    <div class="webDev-title">
+      <h1 class="h3">Web Development</h1>
+    </div>
+  </div>
+</section>
+
+<%- include("partials/footer.ejs") %>

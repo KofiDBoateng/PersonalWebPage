@@ -1,22 +1,22 @@
 /* Global */
-*{
-    font-family: "Roboto", "sans-serif";
+* {
+  font-family: "Roboto", "sans-serif";
 }
 
 /* Banner */
 
-.banner-image{
-    text-align: center;
+.banner-image {
+  text-align: center;
 }
-.banner-image img{
-    width: fit-content;
+.banner-image img {
+  width: fit-content;
 }
 
 /* Main Page */
-.bio-content{
-    max-width:74%;
-    text-align:left;
-    margin:0 auto 0 auto;
+.bio-content {
+  max-width: 74%;
+  text-align: left;
+  margin: 0 auto 0 auto;
 }
 
 /* Skill One */
@@ -29,9 +29,38 @@
 
 /* Contact */
 
-.contact-image{
-    text-align: center;
+.contact-image {
+  text-align: center;
 }
-.contact-image img{
-    width: 50%;
+.contact-image img {
+  width: 50%;
+}
+
+/* Works */
+.work-section {
+  padding: 100px 0;
+  background-color: #f8b58a;
+  color: white;
+}
+
+.dataScience-works {
+  color: #760006;
+}
+
+.dataScience-img img {
+  width: 100%;
+}
+
+label a {
+  text-decoration: none;
+}
+
+.display-section {
+  text-align: center;
+}
+
+.webDev-works {
+  text-align: center;
+  background-color: #f8b58a;
+  color: white;
 }
